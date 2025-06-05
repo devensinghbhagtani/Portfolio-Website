@@ -56,7 +56,7 @@ function HomeHero() {
       <div className="w-full mb-8 space-y-1 md:space-y-0  md:mb-4">
         {/* Mobile View: 3 lines */}
         <div className="block md:hidden space-y-1">
-          <AnimatedLine text="DESIGNING DEVEN IDEAS," align="left" />
+          <AnimatedLine text="DESIGNING IDEAS," align="left" />
           <AnimatedLine text="DELIVERING" align="left" delayOffset={20} />
           <AnimatedLine text="IMPACT" align="left" delayOffset={40} />
         </div>
