@@ -19,7 +19,7 @@ function StarSpeakers() {
 
           <div className="h-[280px] md:min-w-[50%] md:min-h-[60vh] overflow-hidden relative ">
             <img
-              src="/src/assets/images/starspeakers_main.jpg"
+              src="/assets/images/starspeakers_main.jpg"
               className="w-full h-full  object-cover "
               style={{ imageRendering: "pixelated" }}
             />
@@ -36,7 +36,7 @@ function StarSpeakers() {
         <div className="w-full h-[40vh] md:flex items-center overflow-hidden relative">
           <img
             className="w-full h-full absolute object-cover"
-            src="/src/assets/images/starspeakers_website.jpg"
+            src="/assets/images/starspeakers_website.jpg"
             style={{ imageRendering: "pixelated" }}
           />
         </div>
@@ -54,7 +54,7 @@ function StarSpeakers() {
         <div className="w-full flex items-center overflow-hidden">
           <img
             className="w-full object-cover scale-101"
-            src="/src/assets/images/starspeakers_ui2.gif"
+            src="/assets/images/starspeakers_ui2.gif"
             style={{ imageRendering: "pixelated" }}
           />
         </div>
@@ -94,7 +94,7 @@ function StarSpeakers() {
             Design System
           </h1>
           <div className="w-full overflow-hidden">
-            <img src="src/assets/images/starspeakers_typography.jpg" alt="" />
+            <img src="/assets/images/starspeakers_typography.jpg" alt="" />
           </div>
         </div>
 
@@ -102,7 +102,7 @@ function StarSpeakers() {
         <div className="flex flex-col gap-4 md:gap-6">
           <h1 className="text-xl tracking-tighter md:text-3xl">Master Class</h1>
           <div className="w-full overflow-hidden">
-            <img src="src/assets/images/starspeakers_ui3.png" alt="" />
+            <img src="/assets/images/starspeakers_ui3.png" alt="" />
           </div>
         </div>
 
@@ -110,7 +110,7 @@ function StarSpeakers() {
         <div className="flex flex-col gap-4 md:gap-6">
           <h1 className="text-xl tracking-tighter md:text-3xl">Final Design</h1>
           <div className="w-full overflow-hidden">
-            <img src="src/assets/images/starspeakers_ui.gif" alt="" />
+            <img src="/assets/images/starspeakers_ui.gif" alt="" />
           </div>
         </div>
 

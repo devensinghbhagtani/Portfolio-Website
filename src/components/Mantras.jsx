@@ -1,26 +1,26 @@
 const mantras1 = [
   {
     title: "Mantra 1",
-    image: "src/assets/images/Mantras/Mantra1.jpg",
+    image: "/assets/images/Mantras/Mantra1.jpg",
   },
   {
     title: "Mantra 2",
-    image: "src/assets/images/Mantras/Mantra2.jpg",
+    image: "/assets/images/Mantras/Mantra2.jpg",
   },
 ];
 
 const mantras2 = [
   {
     title: "Mantra 3",
-    image: "src/assets/images/Mantras/Mantra3.jpg",
+    image: "/assets/images/Mantras/Mantra3.jpg",
   },
   {
     title: "Mantra 4",
-    image: "src/assets/images/Mantras/Mantra4.jpg",
+    image: "/assets/images/Mantras/Mantra4.jpg",
   },
   {
     title: "Mantra 5",
-    image: "src/assets/images/Mantras/Mantra5.jpg",
+    image: "/assets/images/Mantras/Mantra5.jpg",
   },
 ];
 

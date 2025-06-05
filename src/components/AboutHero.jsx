@@ -5,7 +5,7 @@ function AboutHero() {
         <div className="flex flex-col gap-6 md:gap-6  ">
           <div className=" md:hidden w-full h-[280px] md:min-w-[50%] md:min-h-[75vh] overflow-hidden relative ">
             <img
-              src="src/assets/images/Artboard 2.jpg"
+              src="/assets/images/Artboard 2.jpg"
               alt="Deven Bhagtani"
               className="w-full h-full  object-cover "
               style={{ imageRendering: "pixelated" }}
@@ -41,33 +41,10 @@ function AboutHero() {
               </div>
             </div>
           </div>
-          {/* <div className="gap-4 md:gap-8 flex items-center mb-8 md:mb-0 tracking-tighter">
-            <a
-              href="https://www.instagram.com/deven_bhagtani/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="cta-button hidden  relative py-2 rounded-full border border-black px-6 md:flex items-center overflow-hidden group w-fit"
-            >
-              <span className="default-text text-md md:text-lg relative transition-all duration-400 ease-[cubic-bezier(0.76,0,0.24,1)] group-hover:-translate-y-6 group-hover:scale-90 tracking-tighter">
-                What I Create
-              </span>
-              <span className="hover-text  text-md md:text-lg text-white absolute transition-all duration-400 ease-[cubic-bezier(0.76,0,0.24,1)] translate-y-6 scale-110 opacity-0 group-hover:translate-y-0 group-hover:scale-100  group-hover:opacity-100 tracking-tighter">
-                What I Create
-              </span>
-            </a>
-            <a
-              href="https://www.instagram.com/deven_bhagtani/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="md:hidden relative py-2 rounded-full border border-black px-3 flex items-center overflow-hidden group w-fit"
-            >
-              <h1 className="md:text-lg">What I Create</h1>
-            </a>
-          </div> */}
         </div>
         <div className="hidden md:block w-full h-[280px] md:min-w-[50%] md:min-h-[75vh] overflow-hidden relative ">
           <img
-            src="src/assets/images/Artboard 2.jpg"
+            src="/assets/images/Artboard 2.jpg"
             alt="Deven Bhagtani"
             className="w-full h-full  object-cover "
             style={{ imageRendering: "pixelated" }}

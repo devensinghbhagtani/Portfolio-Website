@@ -4,19 +4,19 @@ const projects = [
   {
     title: "gigHive: Discover, Learn, Achieve",
     category: "UX Case Study",
-    image: "src/assets/images/Thumbnails/thumbnail_gighive.jpg",
+    image: "/assets/images/Thumbnails/thumbnail_gighive.jpg",
     link: "/gighive",
   },
   {
     title: "Star Speakers Academy Website",
     category: "UX Case Study",
-    image: "src/assets/images/Thumbnails/thumbnail_ssa.jpg",
+    image: "/assets/images/Thumbnails/thumbnail_ssa.jpg",
     link: "/starspeakersacademy",
   },
   {
     title: "Expressing Through Design: A Collection of My Works",
     category: "Designs",
-    image: "src/assets/images/Thumbnails/thumbnail_arts.jpg",
+    image: "/assets/images/Thumbnails/thumbnail_arts.jpg",
     link: "/creativeworks",
   },
 ];

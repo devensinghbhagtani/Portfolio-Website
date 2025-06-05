@@ -22,7 +22,12 @@ const characterVariants = {
 // Reusable animated line
 const AnimatedLine = ({ text, align = "left", delayOffset = 0 }) => (
   <h1
-    className={`leading-none text-[10vw] md:text-[71px] lg:text-[7vw] tracking-tighter m-0 text-${align}`}
+    className={`
+      leading-none 
+      text-[10vw] md:text-[71px] lg:text-[7vw] 
+      tracking-tighter m-0 
+      ${align === "right" ? "text-left md:text-right" : "text-left"}
+    `}
   >
     {text.split("").map((char, i) => (
       <motion.span
@@ -80,7 +85,7 @@ function HomeHero() {
         >
           <div className=" lg:top-[36vh] max-w-[250px] md:max-w-full h-[280px] md:w-[45vh] md:h-[48vh] overflow-hidden">
             <PixelatedImage
-              src="src/assets/images/itsme.jpg"
+              src="/assets/images/itsme.jpg"
               alt="Deven Bhagtani"
               initialScale={0.05}
               duration={800}

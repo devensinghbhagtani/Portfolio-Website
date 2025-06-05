@@ -17,7 +17,7 @@ function GigHive() {
 
           <div className="h-[280px] md:min-w-[50%] md:min-h-[60vh] overflow-hidden relative ">
             <img
-              src="/src/assets/images/gighive_main.png"
+              src="/assets/images/gighive_main.png"
               className="w-full h-full  object-cover "
               style={{ imageRendering: "pixelated" }}
             />
@@ -33,13 +33,13 @@ function GigHive() {
         {/*Images*/}
         <div className="flex flex-col md:flex-row justify-between gap-2">
           <img
-            src="src/assets/images/gighive_icon1.png"
+            src="/assets/images/gighive_icon1.png"
             alt=""
             className="md:w-[49%] w-full h-[42vw] md:h-auto lg:h-[18vw] object-cover"
             style={{ imageRendering: "pixelated" }}
           />
           <img
-            src="src/assets/images/gighive_icon2.png"
+            src="/assets/images/gighive_icon2.png"
             alt=""
             className="md:w-[49%] w-full h-[42vw] md:h-auto lg:h-[18vw] object-cover"
             style={{ imageRendering: "pixelated" }}
@@ -60,12 +60,12 @@ function GigHive() {
         {/*Images*/}
         <div className="flex flex-col md:flex-row justify-between gap-2">
           <img
-            src="src\assets\images\gighive_mockup1.png"
+            src="/assets/images/gighive_mockup1.png"
             alt=""
             className="md:w-[49%] w-full h-[60vw] md:h-auto lg:h-[30vw] object-cover"
           />
           <img
-            src="src\assets\images\gighive_mockup2.png"
+            src="/assets/images/gighive_mockup2.png"
             alt=""
             className="md:w-[49%] w-full h-[60vw] md:h-auto lg:h-[30vw] object-cover"
           />
@@ -103,7 +103,7 @@ function GigHive() {
         <div className="flex flex-col gap-4 md:gap-6">
           <h1 className="text-xl tracking-tighter md:text-3xl">Wireframes</h1>
           <div className="w-full overflow-hidden">
-            <img src="src\assets\images\gighive_wireframes.png" alt="" />
+            <img src="/assets/images/gighive_wireframes.png" alt="" />
           </div>
         </div>
 
@@ -111,17 +111,9 @@ function GigHive() {
         <div className="flex flex-col gap-4 md:gap-6 mb-40">
           <h1 className="text-xl tracking-tighter md:text-3xl">Final UI</h1>
           <div className="w-full overflow-hidden">
-            <img src="src\assets\images\gighive_ui2.jpg" alt="" />
+            <img src="/assets/images/gighive_ui2.jpg" alt="" />
           </div>
         </div>
-
-        {/* <div className="w-full h-[20vh] relative overflow-hidden mb-20">
-          <img
-            className="absolute -top-[200px]"
-            src="src\assets\images\starspeakers_website.jpg"
-            alt=""
-          />
-        </div> */}
       </div>
     </div>
   );
