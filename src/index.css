@@ -1,0 +1,68 @@
+@import "tailwindcss";
+::selection {
+  background: #d7ff0d;
+  color: #000000; /* Optional: change text color during selection */
+}
+/* For Mozilla Firefox */
+::-moz-selection {
+  background: #d7ff0d;
+  color: #000000;
+}
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  font-display: swap;
+  font-family: "JetBrains Mono", monospace, sans-serif;
+}
+.bg-grid-svg {
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'><rect width='100' height='100' fill='%23FFFFFF'/><path d='M 0 100 L 100 100 M 100 0 L 100 100' stroke='black' stroke-opacity='0.16' stroke-width='1'/></svg>");
+  background-size: 120px 120px;
+  z-index: -2;
+}
+/* Add these to your index.css file */
+.pixelated-image,
+.pixelated-canvas {
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -webkit-crisp-edges;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}
+/* Additional canvas specific rules */
+canvas.pixelated-canvas {
+  image-rendering: -moz-crisp-edges !important;
+  image-rendering: -webkit-crisp-edges !important;
+  image-rendering: pixelated !important;
+  image-rendering: crisp-edges !important;
+}
+/* Prevent any smoothing on the container */
+.pixelated-container * {
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -webkit-crisp-edges;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}
+.cta-button {
+  transition: background-color 0.4s cubic-bezier(0.76, 0, 0.24, 1);
+}
+.cta-button:hover {
+  background-color: #000;
+}
+.rotating-text {
+  animation: spin 8s linear infinite;
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+text {
+  letter-spacing: 2.1px;
+  word-spacing: 3px;
+}
+.highlight {
+  background-color: rgba(215, 255, 13, 1);
+}
