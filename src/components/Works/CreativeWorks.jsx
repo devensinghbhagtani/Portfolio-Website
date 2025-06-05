@@ -229,7 +229,7 @@ function CreativeWorks() {
                   >
                     <img
                       className="md:w-1/2 m-auto "
-                      src={`/assets/images/Artwork/slider${num}.png`}
+                      src={`/assets/images/Artwork/slider${num}.jpg`}
                       alt={`Slide ${num}`}
                     />
                   </SwiperSlide>
