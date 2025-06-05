@@ -29,7 +29,7 @@ function CreativeWorks() {
 
             <div className="h-[280px] md:min-w-[50%] md:min-h-[60vh] overflow-hidden relative ">
               <img
-                src="src\assets\images\Artwork\creative_main.jpg"
+                src="/assets/images/Artwork/creative_main.jpg"
                 className="w-full h-full object-cover "
                 style={{ imageRendering: "pixelated" }}
               />
@@ -82,10 +82,10 @@ function CreativeWorks() {
               Personalized Card Designs
             </h1>
             <div className="w-full overflow-hidden">
-              <img src="src/assets/images/Artwork/card_1.jpg" alt="" />
+              <img src="/assets/images/Artwork/card_1.jpg" alt="" />
             </div>
             <div className="w-full overflow-hidden">
-              <img src="src/assets/images/Artwork/card_2.jpg" alt="" />
+              <img src="/assets/images/Artwork/card_2.jpg" alt="" />
             </div>
           </div>
 
@@ -95,7 +95,7 @@ function CreativeWorks() {
               Social Media Creatives
             </h1>
             <div className="w-full overflow-hidden">
-              <img src="src/assets/images/Artwork/instapost.jpg" alt="" />
+              <img src="/assets/images/Artwork/instapost.jpg" alt="" />
             </div>
           </div>
 
@@ -131,7 +131,7 @@ function CreativeWorks() {
               <h1 className="md:text-lg">View Magazine</h1>
             </a>
             <div className="w-full overflow-hidden">
-              <img src="src/assets/images/Artwork/mindroid.jpg" alt="" />
+              <img src="/assets/images/Artwork/mindroid.jpg" alt="" />
             </div>
           </div>
 
@@ -165,10 +165,10 @@ function CreativeWorks() {
               <h1 className="md:text-lg">View Collection</h1>
             </a>
             <div className="w-full overflow-hidden">
-              <img src="src/assets/images/Artwork/desi_khwab.jpg" alt="" />
+              <img src="/assets/images/Artwork/desi_khwab.jpg" alt="" />
             </div>
             <div className="w-full overflow-hidden">
-              <img src="src/assets/images/Artwork/desi_khwab1.jpg" alt="" />
+              <img src="/assets/images/Artwork/desi_khwab1.jpg" alt="" />
             </div>
           </div>
 
@@ -229,7 +229,7 @@ function CreativeWorks() {
                   >
                     <img
                       className="md:w-1/2 m-auto "
-                      src={`src/assets/images/Artwork/slider${num}.png`}
+                      src={`/assets/images/Artwork/slider${num}.png`}
                       alt={`Slide ${num}`}
                     />
                   </SwiperSlide>
@@ -238,14 +238,14 @@ function CreativeWorks() {
 
               <button className="hidden md:block custom-prev absolute left-0 top-1/2 transform -translate-y-1/2 scale-x-[-1] text-2xl border-[1px] px-4 w-12 h-12 rounded-full cursor-pointer z-20 ">
                 <img
-                  src="src/assets/slidericon1.svg"
+                  src="/assets/slidericon1.svg"
                   alt="Previous"
                   className="m-auto"
                 />
               </button>
               <button className="hidden md:block custom-next absolute right-0 top-1/2 transform -translate-y-1/2 text-2xl border-[1px] px-4 w-12 h-12 rounded-full cursor-pointer z-20">
                 <img
-                  src="src/assets/slidericon1.svg"
+                  src="/assets/slidericon1.svg"
                   alt="Previous"
                   className="m-auto"
                 />
@@ -254,7 +254,7 @@ function CreativeWorks() {
             <div className="w-full overflow-hidden">
               <img
                 className="scale-102"
-                src="src/assets/images/Artwork/logo_reveal.gif"
+                src="/assets/images/Artwork/logo_reveal.gif"
                 alt=""
               />
             </div>
