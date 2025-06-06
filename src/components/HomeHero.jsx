@@ -124,9 +124,7 @@ function HomeHero() {
                 </span>
               </Link>
               <Link
-                href="/work"
-                target="_blank"
-                rel="noopener noreferrer"
+                to="/work"
                 className="md:hidden relative py-2 rounded-full border border-black px-3 flex items-center overflow-hidden group w-fit"
               >
                 <h1 className="md:text-lg"> See my projects</h1>

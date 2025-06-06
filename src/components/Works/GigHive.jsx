@@ -60,12 +60,12 @@ function GigHive() {
         {/*Images*/}
         <div className="flex flex-col md:flex-row justify-between gap-2">
           <img
-            src="/assets/images/gighive_mockup1.png"
+            src="/assets/images/gighive_mockup1.jpg"
             alt=""
             className="md:w-[49%] w-full h-[60vw] md:h-auto lg:h-[30vw] object-cover"
           />
           <img
-            src="/assets/images/gighive_mockup2.png"
+            src="/assets/images/gighive_mockup2.jpg"
             alt=""
             className="md:w-[49%] w-full h-[60vw] md:h-auto lg:h-[30vw] object-cover"
           />
