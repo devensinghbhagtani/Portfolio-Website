@@ -127,7 +127,7 @@ function HomeHero() {
                 to="/work"
                 className="md:hidden relative py-2 rounded-full border border-black px-3 flex items-center overflow-hidden group w-fit"
               >
-                <h1 className="md:text-lg"> See my projects</h1>
+                <h1 className="md:text-lg font-medium"> See my projects</h1>
               </Link>
               <a
                 href="https://drive.google.com/file/d/1-QQeziHvXDYnRguVtO0jdVbiiVV5nAPK/view?usp=sharing"
