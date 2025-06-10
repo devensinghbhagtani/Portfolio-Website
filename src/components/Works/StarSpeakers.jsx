@@ -13,7 +13,7 @@ function StarSpeakers() {
               UX Case Study: Star Speakers Academy Website
             </h1>
             <h1 className="md:block hidden text-md md:text-lg leading-tight tracking-tight  px-3 py-2 border-[1px] w-fit rounded-full">
-              Jul - Aug 2019
+              Jun - Oct 2024
             </h1>
           </div>
 
@@ -25,7 +25,7 @@ function StarSpeakers() {
             />
           </div>
           <h1 className="md:hidden  text-md md:text-lg leading-tight tracking-tight  px-3 py-2 border-[1px] w-fit rounded-full">
-            Jul - Aug 2019
+            Jun - Oct 2024
           </h1>
         </div>
       </div>

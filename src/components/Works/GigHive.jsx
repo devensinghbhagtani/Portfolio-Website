@@ -11,7 +11,7 @@ function GigHive() {
               gigHive: Connecting Learners, Clients, Freelancers & Educators
             </h1>
             <h1 className="md:block hidden text-md md:text-lg leading-tight tracking-tight  px-3 py-2 border-[1px] w-fit rounded-full">
-              Aug 2019 - Mobile
+              Aug 2023 - Mobile
             </h1>
           </div>
 
@@ -23,7 +23,7 @@ function GigHive() {
             />
           </div>
           <h1 className="md:hidden  text-md md:text-lg leading-tight tracking-tight  px-3 py-2 border-[1px] w-fit rounded-full">
-            Aug 2019 - Mobile
+            Aug 2023 - Mobile
           </h1>
         </div>
       </div>
