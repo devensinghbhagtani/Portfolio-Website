@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset 
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://devenbhagtani.xyz/</loc>
+    <lastmod>2025-06-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://devenbhagtani.xyz/assets/images/itsme.jpg</image:loc>
+      <image:title>Deven Bhagtani</image:title>
+    </image:image>
+  </url>
+
+  <!-- Projects Page -->
+  <url>
+    <loc>https://devenbhagtani.xyz/work</loc>
+    <lastmod>2025-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://devenbhagtani.xyz/assets/images/Thumbnails/thumbnail_gighive.jpg</image:loc>
+      <image:title>gigHive</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://devenbhagtani.xyz/assets/images/Thumbnails/thumbnail_ssa.jpg</image:loc>
+      <image:title>Star Speakers Academy</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://devenbhagtani.xyz/assets/images/Thumbnails/thumbnail_arts.jpg</image:loc>
+      <image:title>Creative Works</image:title>
+    </image:image>
+  </url>
+
+</urlset>
