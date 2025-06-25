@@ -16,7 +16,11 @@ function PixelatedImage({
   const [isHovered, setIsHovered] = useState(false);
   const [shouldAnimate, setShouldAnimate] = useState(false);
 
-  // New function for random pixelation
+  // Detect touch device
+  const isTouchDevice = () => {
+    return typeof window !== "undefined" && "ontouchstart" in window;
+  };
+
   const drawRandomPixelated = (ctx, img, scale, progress) => {
     const { width, height } = dimensions;
     if (!width || !height) return;
@@ -24,18 +28,15 @@ function PixelatedImage({
     const tempCanvas = document.createElement("canvas");
     const tempCtx = tempCanvas.getContext("2d");
 
-    // Create a buffer for random pixelation
     const bufferCanvas = document.createElement("canvas");
     const bufferCtx = bufferCanvas.getContext("2d");
     bufferCanvas.width = width;
     bufferCanvas.height = height;
 
-    // Draw original image at target size
     tempCanvas.width = Math.max(1, width * scale);
     tempCanvas.height = Math.max(1, height * scale);
     tempCtx.drawImage(img, 0, 0, tempCanvas.width, tempCanvas.height);
 
-    // Draw pixelated version to buffer
     bufferCtx.imageSmoothingEnabled = false;
     bufferCtx.drawImage(
       tempCanvas,
@@ -49,26 +50,20 @@ function PixelatedImage({
       height
     );
 
-    // Clear main canvas
     ctx.clearRect(0, 0, width, height);
 
-    // Random pixel reveal effect
     const blockSize = 10;
     const cols = Math.ceil(width / blockSize);
     const rows = Math.ceil(height / blockSize);
     const totalBlocks = cols * rows;
     const visibleBlocks = Math.floor(totalBlocks * progress);
 
-    // Create array of all possible block indices
     const blocks = Array.from({ length: totalBlocks }, (_, i) => i);
-
-    // Shuffle array for random order
     for (let i = blocks.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
       [blocks[i], blocks[j]] = [blocks[j], blocks[i]];
     }
 
-    // Draw only the visible blocks
     for (let i = 0; i < visibleBlocks; i++) {
       const blockIdx = blocks[i];
       const x = (blockIdx % cols) * blockSize;
@@ -138,7 +133,6 @@ function PixelatedImage({
     animateStep();
   };
 
-  // New animation for random pixel loading
   const animateRandomLoad = () => {
     if (!isLoaded || !shouldAnimate) return;
 
@@ -161,7 +155,6 @@ function PixelatedImage({
       if (currentStep < steps) {
         animationRef.current = setTimeout(animateStep, stepDuration);
       } else {
-        // After random load completes, draw the initial pixelated version
         drawPixelated(
           canvasRef.current.getContext("2d"),
           imgRef.current,
@@ -188,7 +181,6 @@ function PixelatedImage({
       setIsLoaded(true);
       setShouldAnimate(true);
 
-      // Start random pixel load animation instead of drawing directly
       animateRandomLoad();
     };
 
@@ -223,9 +215,16 @@ function PixelatedImage({
 
   return (
     <div
-      className={`relative ${className}`}
-      onMouseEnter={() => setIsHovered(true)}
-      onMouseLeave={() => setIsHovered(false)}
+      className={`relative ${className} cursor-pointer`}
+      onMouseEnter={() => {
+        if (!isTouchDevice()) setIsHovered(true);
+      }}
+      onMouseLeave={() => {
+        if (!isTouchDevice()) setIsHovered(false);
+      }}
+      onClick={() => {
+        if (isTouchDevice()) setIsHovered((prev) => !prev);
+      }}
     >
       <img
         ref={imgRef}
@@ -248,4 +247,5 @@ function PixelatedImage({
     </div>
   );
 }
+
 export default PixelatedImage;
