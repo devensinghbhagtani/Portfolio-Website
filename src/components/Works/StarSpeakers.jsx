@@ -22,6 +22,7 @@ function StarSpeakers() {
               src="/assets/images/starspeakers_main.jpg"
               className="w-full h-full  object-cover "
               style={{ imageRendering: "pixelated" }}
+              alt="Deven Bhagtani - Star Speakers Academy"
             />
           </div>
           <h1 className="md:hidden  text-md md:text-lg leading-tight tracking-tight  px-3 py-2 border-[1px] w-fit rounded-full">
@@ -37,6 +38,7 @@ function StarSpeakers() {
           <img
             className="w-full h-full absolute object-cover"
             src="/assets/images/starspeakers_website.jpg"
+            alt="Deven Bhagtani - Star Speakers Academy"
             style={{ imageRendering: "pixelated" }}
           />
         </div>
@@ -56,6 +58,7 @@ function StarSpeakers() {
             className="w-full object-cover scale-101"
             src="/assets/images/starspeakers_ui2.gif"
             style={{ imageRendering: "pixelated" }}
+            alt="Deven Bhagtani - Star Speakers Academy"
           />
         </div>
 
@@ -94,7 +97,11 @@ function StarSpeakers() {
             Design System
           </h1>
           <div className="w-full overflow-hidden">
-            <img src="/assets/images/starspeakers_typography.jpg" alt="" />
+            <img
+              src="/assets/images/starspeakers_typography.jpg"
+              alt="
+Deven Bhagtani - Star Speakers Academy Typography"
+            />
           </div>
         </div>
 
@@ -102,7 +109,12 @@ function StarSpeakers() {
         <div className="flex flex-col gap-4 md:gap-6">
           <h1 className="text-xl tracking-tighter md:text-3xl">Master Class</h1>
           <div className="w-full overflow-hidden">
-            <img src="/assets/images/starspeakers_ui3.png" alt="" />
+            <img
+              src="/assets/images/starspeakers_ui3.png"
+              alt="
+Deven Bhagtani - Star Speakers Academy Master Class
+            "
+            />
           </div>
         </div>
 
@@ -110,7 +122,12 @@ function StarSpeakers() {
         <div className="flex flex-col gap-4 md:gap-6">
           <h1 className="text-xl tracking-tighter md:text-3xl">Final Design</h1>
           <div className="w-full overflow-hidden">
-            <img src="/assets/images/starspeakers_ui.gif" alt="" />
+            <img
+              src="/assets/images/starspeakers_ui.gif"
+              alt="
+Deven Bhagtani - Star Speakers Academy Final Design
+            "
+            />
           </div>
         </div>
 

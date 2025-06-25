@@ -30,6 +30,7 @@ function CreativeWorks() {
             <div className="h-[280px] md:min-w-[50%] md:min-h-[60vh] overflow-hidden relative ">
               <img
                 src="/assets/images/Artwork/creative_main.jpg"
+                alt="Deven Bhagtani - Creative Works"
                 className="w-full h-full object-cover "
                 style={{ imageRendering: "pixelated" }}
               />
@@ -82,10 +83,16 @@ function CreativeWorks() {
               Personalized Card Designs
             </h1>
             <div className="w-full overflow-hidden">
-              <img src="/assets/images/Artwork/card_1.jpg" alt="" />
+              <img
+                src="/assets/images/Artwork/card_1.jpg"
+                alt="Deven Bhagtani - Personalized Card Designs"
+              />
             </div>
             <div className="w-full overflow-hidden">
-              <img src="/assets/images/Artwork/card_2.jpg" alt="" />
+              <img
+                src="/assets/images/Artwork/card_2.jpg"
+                alt="Deven Bhagtani - Personalized Card Designs"
+              />
             </div>
           </div>
 
@@ -95,7 +102,10 @@ function CreativeWorks() {
               Social Media Creatives
             </h1>
             <div className="w-full overflow-hidden">
-              <img src="/assets/images/Artwork/instapost.jpg" alt="" />
+              <img
+                src="/assets/images/Artwork/instapost.jpg"
+                alt="Deven Bhagtani - Social Media Creatives"
+              />
             </div>
           </div>
 
@@ -131,7 +141,10 @@ function CreativeWorks() {
               <h1 className="md:text-lg">View Magazine</h1>
             </a>
             <div className="w-full overflow-hidden">
-              <img src="/assets/images/Artwork/mindroid.jpg" alt="" />
+              <img
+                src="/assets/images/Artwork/mindroid.jpg"
+                alt="Deven Bhagtani - Magazine Design"
+              />
             </div>
           </div>
 
@@ -165,10 +178,16 @@ function CreativeWorks() {
               <h1 className="md:text-lg">View Collection</h1>
             </a>
             <div className="w-full overflow-hidden">
-              <img src="/assets/images/Artwork/desi_khwab.jpg" alt="" />
+              <img
+                src="/assets/images/Artwork/desi_khwab.jpg"
+                alt="Deven Bhagtani - Desi Khwab"
+              />
             </div>
             <div className="w-full overflow-hidden">
-              <img src="/assets/images/Artwork/desi_khwab1.jpg" alt="" />
+              <img
+                src="/assets/images/Artwork/desi_khwab1.jpg"
+                alt="Deven Bhagtani - Desi Khwab"
+              />
             </div>
           </div>
 
@@ -230,7 +249,7 @@ function CreativeWorks() {
                     <img
                       className="md:w-1/2 m-auto "
                       src={`/assets/images/Artwork/slider${num}.jpg`}
-                      alt={`Slide ${num}`}
+                      alt={`Deven Bhagtani - Slide ${num}`}
                     />
                   </SwiperSlide>
                 ))}

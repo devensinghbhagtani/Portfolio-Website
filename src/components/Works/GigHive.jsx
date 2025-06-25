@@ -20,6 +20,7 @@ function GigHive() {
               src="/assets/images/gighive_main.png"
               className="w-full h-full  object-cover "
               style={{ imageRendering: "pixelated" }}
+              alt="Deven Bhagtani - gigHive"
             />
           </div>
           <h1 className="md:hidden  text-md md:text-lg leading-tight tracking-tight  px-3 py-2 border-[1px] w-fit rounded-full">
@@ -34,13 +35,13 @@ function GigHive() {
         <div className="flex flex-col md:flex-row justify-between gap-2">
           <img
             src="/assets/images/gighive_icon1.png"
-            alt=""
+            alt="Deven Bhagtani - gigHive"
             className="md:w-[49%] w-full h-[42vw] md:h-auto lg:h-[18vw] object-cover"
             style={{ imageRendering: "pixelated" }}
           />
           <img
             src="/assets/images/gighive_icon2.png"
-            alt=""
+            alt="Deven Bhagtani - gigHive"
             className="md:w-[49%] w-full h-[42vw] md:h-auto lg:h-[18vw] object-cover"
             style={{ imageRendering: "pixelated" }}
           />
@@ -61,12 +62,12 @@ function GigHive() {
         <div className="flex flex-col md:flex-row justify-between gap-2">
           <img
             src="/assets/images/gighive_mockup1.jpg"
-            alt=""
+            alt="Deven Bhagtani - gigHive"
             className="md:w-[49%] w-full h-[60vw] md:h-auto lg:h-[30vw] object-cover"
           />
           <img
             src="/assets/images/gighive_mockup2.jpg"
-            alt=""
+            alt="Deven Bhagtani - gigHive"
             className="md:w-[49%] w-full h-[60vw] md:h-auto lg:h-[30vw] object-cover"
           />
         </div>
@@ -103,7 +104,10 @@ function GigHive() {
         <div className="flex flex-col gap-4 md:gap-6">
           <h1 className="text-xl tracking-tighter md:text-3xl">Wireframes</h1>
           <div className="w-full overflow-hidden">
-            <img src="/assets/images/gighive_wireframes.png" alt="" />
+            <img
+              src="/assets/images/gighive_wireframes.png"
+              alt="Deven Bhagtani - Wireframes for gigHive"
+            />
           </div>
         </div>
 
@@ -111,7 +115,10 @@ function GigHive() {
         <div className="flex flex-col gap-4 md:gap-6 mb-40">
           <h1 className="text-xl tracking-tighter md:text-3xl">Final UI</h1>
           <div className="w-full overflow-hidden">
-            <img src="/assets/images/gighive_ui2.jpg" alt="" />
+            <img
+              src="/assets/images/gighive_ui2.jpg"
+              alt="Deven Bhagtani - Final Interface for gigHive"
+            />
           </div>
         </div>
       </div>
